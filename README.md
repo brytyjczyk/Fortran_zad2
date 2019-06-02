@@ -27,18 +27,25 @@ Wykres zwykłego sinusa, bez szumów, czysty.
 
 ![](https://github.com/brytyjczyk/Fortran_zad2/blob/master/res/clearSinus.png)
 
+
 Sinus wraz z naniesionym szumem
 
 ![](https://github.com/brytyjczyk/Fortran_zad2/blob/master/res/noisySinus.png)
+
 
 wynik transformaty fouriera na zaszumionym sygnale
 
 ![](https://github.com/brytyjczyk/Fortran_zad2/blob/master/res/sinusNoisyF.png)
 
+
 usunięcie szumów z zaszumionej transformaty Fouriera
 
 ![](https://github.com/brytyjczyk/Fortran_zad2/blob/master/res/sinusClearedF.png)
+
+
 Po otrzymaniu jednego sygnału - jednej wybijającej się częstotliwości, możemy utworzyć sygnał w funkcji czasu odszumionego sinusa
 
 ![](https://github.com/brytyjczyk/Fortran_zad2/blob/master/res/sinusClearedTime.png)
+
+
 Możemy zauważyć, ze sygnał jest niemal identyczny, co świadczy o poprawności Transformaty Fouriera oraz jej użyciu w powyższym zadaniu.
