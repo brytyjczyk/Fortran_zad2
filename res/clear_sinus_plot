@@ -1,0 +1,14 @@
+set terminal pdfcairo
+set output "clearSinus.pdf"
+
+set style data lines
+set grid
+
+set key box top left
+set termopt enhanced
+
+set xlabel 'Time' font 'Arial,14'
+set ylabel 'Value' font 'Arial,14'
+
+
+plot "clearSinus" title "clearSinus"
