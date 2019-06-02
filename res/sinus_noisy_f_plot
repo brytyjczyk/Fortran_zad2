@@ -7,8 +7,8 @@ set grid
 set key box top left
 set termopt enhanced
 
-set xlabel 'Time' font 'Arial,14'
-set ylabel 'Value' font 'Arial,14'
+set xlabel 'Value' font 'Arial,14'
+set ylabel 'Frequency[Hz]' font 'Arial,14'
 
 
 plot "sinusNoisyF" title "sinusNoisyF"
