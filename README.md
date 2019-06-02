@@ -11,11 +11,11 @@ x=sin(2∗π∗t∗200) + 2∗sin(2∗π∗t∗400)
 
 Dla powyższego sygnału wykres prezentuje się następująco:
 
-![](https://github.com/brytyjczyk/Fortran_zad2/blob/master/res/signalTime.pdf)
+![](https://github.com/brytyjczyk/Fortran_zad2/blob/master/res/signalTime.png)
 
 Wynik po Transformacie Fouriera
 
-![](https://github.com/brytyjczyk/Fortran_zad2/blob/master/res/signalFreq.pdf)
+![](https://github.com/brytyjczyk/Fortran_zad2/blob/master/res/signalFreq.png)
 
 Obserwując wyniki możemy wysnuć poniższe wnioski:
 Ilość wybrzuszeń świadczy o ilosci składowych sinusoid na nasz sygnał, co jest zgodne z wejściowym sygnałem.
@@ -29,16 +29,16 @@ Wykres zwykłego sinusa, bez szumów, czysty.
 
 Sinus wraz z naniesionym szumem
 
-![](https://github.com/brytyjczyk/Fortran_zad2/blob/master/res/noisySinus.pdf)
+![](https://github.com/brytyjczyk/Fortran_zad2/blob/master/res/noisySinus.png)
 
 wynik transformaty fouriera na zaszumionym sygnale
 
-![](https://github.com/brytyjczyk/Fortran_zad2/blob/master/res/sinusNoisyF.pdf)
+![](https://github.com/brytyjczyk/Fortran_zad2/blob/master/res/sinusNoisyF.png)
 
 usunięcie szumów z zaszumionej transformaty Fouriera
 
-![](https://github.com/brytyjczyk/Fortran_zad2/blob/master/res/sinusClearedF.pdf)
+![](https://github.com/brytyjczyk/Fortran_zad2/blob/master/res/sinusClearedF.png)
 Po otrzymaniu jednego sygnału - jednej wybijającej się częstotliwości, możemy utworzyć sygnał w funkcji czasu odszumionego sinusa
 
-![](https://github.com/brytyjczyk/Fortran_zad2/blob/master/res/sinusClearedTime.pdf)
+![](https://github.com/brytyjczyk/Fortran_zad2/blob/master/res/sinusClearedTime.png)
 Możemy zauważyć, ze sygnał jest niemal identyczny, co świadczy o poprawności Transformaty Fouriera oraz jej użyciu w powyższym zadaniu.
