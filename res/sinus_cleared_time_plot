@@ -1,5 +1,5 @@
-set terminal pdfcairo
-set output "sinusClearedTime.pdf"
+set terminal png
+set output "sinusClearedTime.png"
 
 set style data lines
 set grid

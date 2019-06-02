@@ -1,5 +1,5 @@
-set terminal pdfcairo
-set output "clearSinus.pdf"
+set terminal png
+set output "clearSinus.png"
 
 set style data lines
 set grid

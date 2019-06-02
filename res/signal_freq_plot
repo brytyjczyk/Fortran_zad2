@@ -1,5 +1,5 @@
-set terminal pdfcairo
-set output "signalFreq.pdf"
+set terminal png
+set output "signalFreq.png"
 
 set style data lines
 set grid

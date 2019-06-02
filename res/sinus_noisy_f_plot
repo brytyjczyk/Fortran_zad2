@@ -1,5 +1,5 @@
-set terminal pdfcairo
-set output "sinusNoisyF.pdf"
+set terminal png
+set output "sinusNoisyF.png"
 
 set style data lines
 set grid
