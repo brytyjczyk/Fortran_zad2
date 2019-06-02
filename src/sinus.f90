@@ -18,11 +18,11 @@ program sinus
   type(c_ptr) :: planf, planb
   
 
-  open(unit=10, file = "/home/anna/Fortran/zad2/res/clear_sinus", action='write')
-  open(unit=20, file = "/home/anna/Fortran/zad2/res/noisy_sinus", action='write')
-  open(unit=30, file = "/home/anna/Fortran/zad2/res/sinus_noisy_f", action='write')
-  open(unit=40, file = "/home/anna/Fortran/zad2/res/sinus_cleared_f", action='write')
-  open(unit=50, file = "/home/anna/Fortran/zad2/res/sinus_cleared_time", action='write')
+  open(unit=10, file = "/home/anna/Fortran/zad2/res/clearSinus", action='write')
+  open(unit=20, file = "/home/anna/Fortran/zad2/res/noisySinus", action='write')
+  open(unit=30, file = "/home/anna/Fortran/zad2/res/sinusNoisyF", action='write')
+  open(unit=40, file = "/home/anna/Fortran/zad2/res/sinusClearedF", action='write')
+  open(unit=50, file = "/home/anna/Fortran/zad2/res/sinusClearedTime", action='write')
 
   allocate(in(Fs))
   allocate(out(Fs/2 +1))

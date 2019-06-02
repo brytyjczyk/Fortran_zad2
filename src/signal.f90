@@ -17,8 +17,8 @@ program signal
   real(kind=16) :: val
   integer:: i
 
-  open(unit=10, file = "/home/anna/Fortran/zad2/res/signal_time", action='write')
-  open(unit=20, file = "/home/anna/Fortran/zad2/res/signal_freq", action='write')
+  open(unit=10, file = "/home/anna/Fortran/zad2/res/signalTime", action='write')
+  open(unit=20, file = "/home/anna/Fortran/zad2/res/signalFreq", action='write')
 
   allocate(written_x(Fs))
   allocate(written_freq(Fs/2 + 1))
