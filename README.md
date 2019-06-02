@@ -25,7 +25,7 @@ Częstotliwości tych sinusoid to 200 Hz i 400Hz.
 
 Wykres zwykłego sinusa, bez szumów, czysty.
 
-![](https://github.com/brytyjczyk/Fortran_zad2/blob/master/res/clearSinus.pdf)
+![](https://github.com/brytyjczyk/Fortran_zad2/blob/master/res/clearSinus.png)
 
 Sinus wraz z naniesionym szumem
 
